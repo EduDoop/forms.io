@@ -1,4 +1,17 @@
-темы:
+темы:body *::-moz-selection {
+  background: rgba(255,251,102, 0.8);
+  color: rgb(19,188,188);
+}
+
+body *::-webkit-selection {
+  background: rgba(255,251,102, 0.8);
+  color: rgb(19,188,188);
+}
+
+body *::selection {
+  background: rgba(255,251,102, 0.8);
+  color: rgb(19,188,188);
+}
 
 CSS
 :root {
