@@ -1,1 +1,14 @@
-
+  background: #ccc;
+}
+#container{
+  background: white;
+  width: 500px;
+  height: 500px;
+  text-align: center;  /* Only content will be centered */
+}
+#box{
+  color: white;
+  background: #333;
+  width: 250px;
+  height: 250px;
+}
