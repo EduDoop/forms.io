@@ -1,4 +1,7 @@
-  background: #ccc;
+ .my-class {
+  background-color: #999;
+}
+background: #ccc;
 }
 #container{
   background: white;
