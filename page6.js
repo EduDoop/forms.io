@@ -1,18 +1,21 @@
-<script>
-function makeMenu(items, tags) {
-	tags = tags || ['ul', 'li']; 
-	var parent = tags[0];
-	var child = tags[1];
-        var item, value = '';
-        for (var i = 0, l = items.length; i < l; i++) {
-	item = items[i];
-	if (/:/.test(item)) {
-	tem = items[i].split(':')[0];
-	value = items[i].split(':')[1];
-	items[i] = '<'+ child +' '+
-	(value && 'value="'+value+'"') +'>'+ 
-	item +'</'+ child +'>';
-		}
-		return '<'+ parent +'>'+ items.join('') +'</'+ parent +'>';
-	}
-  </script>
+ <div class="jumbotron text-center">
+  <h1>My First Bootstrap Page</h1>
+  <p>Resize this responsive page to see the effect!</p>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>Column 1</h3>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Column 2</h3>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Column 3</h3>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+</div> 
